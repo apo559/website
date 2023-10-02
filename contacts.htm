@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>kontakter</title>
+	</head>
+	<body>
+		<a href="index.htm">hem</a>
+
+		<form>
+			<label for="fname">Förnamn:</label>
+			<input name="fname" id="fname" type="text">
+			<br>
+			<label for="sname">Efternamn:</label>
+			<input name="sname" id="sname" type="text">
+			<br>
+			<label for="email">Mailaddress:</label>
+			<input name="email" id="email" type="email">
+			<br>
+			<label for="tel">Telefonnummer:</label>
+			<input name="tel" id="tel" type="tel">
+			<br>
+			<!--Användaren väljer överlämningsmetod med ett "radio"-alternativ-->
+			<p>Slutför med:</p>
+			<table>
+				<tr>
+					<td><label for="submitEmail">mailadress</label></td>
+					<td><label for="submitTel">telefonnummer</label></td>
+				</tr>
+				<tr>
+					<td><input name="submitType" id="submitEmail" value="email" type="radio"></td>
+					<td><input name="submitType" id="submitTel" value="tel" type="radio"></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="submit">
+	</body>
+</html>
